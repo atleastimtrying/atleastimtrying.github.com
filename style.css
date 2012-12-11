@@ -14,17 +14,17 @@ body{
 }
 h1{
   padding:16px;
-  font-size:38px;
+  font-size:36px;
   background:white;
-  border-top-left-radius:2px;
-  border-top-right-radius:2px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
   margin:0;
 }
 ul{
   width:100%;
   padding:0;
-  border-bottom-left-radius:2px;
-  border-bottom-right-radius:2px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
   overflow:hidden;
 }
 ul li{
@@ -42,7 +42,9 @@ ul li a{
 ul li:nth-child(odd) a{
   background:#ccc;
 }
-ul li:nth-child(odd) a:hover,
+ul li:nth-child(odd) a:hover{
+  background:lightgreen;
+}
 ul li a:hover{
   background:lightblue;
 }
