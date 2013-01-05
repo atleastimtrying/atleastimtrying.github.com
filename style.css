@@ -8,36 +8,39 @@ html{
   background:#333;
 }
 
-body{
-  max-width:400px;
-  margin:20px auto;
-}
 h1{
   padding:16px;
   font-size:36px;
   background:white;
-  border-top-left-radius:3px;
-  border-top-right-radius:3px;
   margin:0;
 }
 ul{
   width:100%;
   padding:0;
-  border-bottom-left-radius:3px;
-  border-bottom-right-radius:3px;
   overflow:hidden;
+  text-align:center;
 }
 ul li{
   list-style:none;
+  display:inline-block;
 }
 ul li a{
   font-size:24px;
   font-weight:bold;
   text-decoration:none;
-  padding:16px;
   display:block;
   color:#333;
+  width:200px;
+  margin:10px;
+  line-height:0;
+  padding: 100px 0;
   background:#fff;
+  border-radius:100%;
+  text-align:center;
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -0-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
 }
 ul li:nth-child(odd) a{
   background:#ccc;
@@ -47,6 +50,35 @@ ul li:nth-child(odd) a:hover{
 }
 ul li a:hover{
   background:lightblue;
+  border-radius:0;
+  margin:0;
+  width:220px;
+  padding: 110px 0;
 }
 
-
+@media all and (max-width: 500px) {
+  h1{
+    font-size:24px;
+  }
+  ul li{
+    display:block;
+    margin:0;
+  }
+  ul li a,
+  ul li a:hover{
+    border-radius:none;
+    display:block;
+    border-radius:none;
+    padding:16px;
+    margin:0;
+    width:auto;
+    line-height:16px;
+    font-size:16px;
+    text-align:left;
+    border-radius:0;
+    -webkit-transition:none;
+    -moz-transition:none;
+    -0-transition:none;
+    transition:none;
+  }
+}
