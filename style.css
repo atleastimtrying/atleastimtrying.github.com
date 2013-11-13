@@ -41,12 +41,10 @@ ul li a{
   background:#fff;
   border-radius:100%;
   text-align:center;
-  text-shadow:0 1px 1px rgba(255,255,255,0.3);
   -webkit-transition:all 0.5s ease-out;
   -moz-transition:all 0.5s ease-out;
-  -0-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
   transition:all 0.5s ease-out;
-  box-shadow:inset 0 0 60px #333;
 }
 ul li:nth-child(1n) a{
   background-color:#efefef;
