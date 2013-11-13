@@ -60,9 +60,6 @@ ul li:nth-child(4n+1) a:hover{
 ul li a:hover{
   background-color:lightblue;
   border-radius:0;
-  margin:0;
-  width:220px;
-  padding: 110px 0;
   color:#1c1c1c;
 }
 
