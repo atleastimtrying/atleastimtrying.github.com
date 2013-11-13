@@ -35,16 +35,15 @@ ul li a{
   display:block;
   color:#333;
   width:200px;
-  margin:10px;
   line-height:0;
   padding: 100px 0;
   background:#fff;
-  border-radius:100%;
+  border-radius:50%;
   text-align:center;
-  -webkit-transition:all 0.5s ease-out;
-  -moz-transition:all 0.5s ease-out;
-  -o-transition:all 0.5s ease-out;
-  transition:all 0.5s ease-out;
+  -webkit-transition:border-radius 0.5s ease-out;
+  -moz-transition:border-radius 0.5s ease-out;
+  -o-transition:border-radius 0.5s ease-out;
+  transition:border-radius 0.5s ease-out;
 }
 ul li:nth-child(1n) a{
   background-color:#efefef;
