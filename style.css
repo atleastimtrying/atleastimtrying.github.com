@@ -1,104 +1,45 @@
 *{
   margin:0;
   padding:0;
-  color:#333;
-  font-family: 'Antic Slab', serif;
-  font-weight:normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:lighter;
 }
 html{
-  background-color:#333;
+}
+body{
+  margin:0 auto 40px;
+}
+header{
+  background:#333;
+  color:white;
+  padding:64px;
 }
 h1{
-  padding:16px;
-  padding-right:100px;
-  font-size:36px;
-  background:#ddd;
-  text-shadow:0 1px 1px white;
-  color:#333;
-  margin:0;
-  border-bottom:1px solid white;
-  margin-bottom:10px;
+  font-size:48px;
+}
+h3{
+  font-size:32px;
+  margin-bottom:16px;
+}
+p{
+  font-size: 16px;
+  margin-bottom:8px;
 }
 ul{
-  width:100%;
-  padding:0;
-  overflow:hidden;
-  text-align:center;
 }
 ul li{
   list-style:none;
-  display:inline-block;
 }
 ul li a{
   font-size:24px;
   text-decoration:none;
   display:block;
   color:#333;
-  width:200px;
-  line-height:0;
-  padding: 100px 0;
-  background:#fff;
-  border-radius:50%;
-  text-align:center;
-  -webkit-transition:border-radius 0.5s ease-out;
-  -moz-transition:border-radius 0.5s ease-out;
-  -o-transition:border-radius 0.5s ease-out;
-  transition:border-radius 0.5s ease-out;
 }
-ul li:nth-child(1n) a{
-  background-color:#efefef;
+img{
+  width:100%;
 }
-ul li:nth-child(2n) a:hover{
-  background-color:lightgreen;
-}
-ul li:nth-child(3n+3) a:hover{
-  background-color:lightsalmon;
-}
-ul li:nth-child(4n+1) a:hover{
-  background-color:lightgoldenrodyellow;
-}
-ul li a:hover{
-  background-color:lightblue;
-  border-radius:0;
-  color:#1c1c1c;
-}
-.talks li{
-  display:block;
-  max-width:480px;
-  margin: 0 auto 16px auto;
-}
-.talks a{
-  padding: 24px;
-  border-radius: 2px;
-  line-height: 1.2em;
-  width:auto;
-}
-
-@media all and (max-width: 500px) {
-  h1{
-    font-size:24px;
-    margin-bottom:0;
-  }
-  ul li{
-    display:block;
-    margin:0;
-  }
-  ul li a,
-  ul li a:hover{
-    border-radius:none;
-    display:block;
-    border-radius:none;
-    padding:16px;
-    margin:0;
-    width:auto;
-    line-height:16px;
-    font-size:16px;
-    text-align:left;
-    border-radius:0;
-    -webkit-transition:background-color 1s ease-out;
-    -moz-transition:background-color 1s ease-out;
-    -0-transition:background-color 1s ease-out;
-    transition:background-color 1s ease-out;
-    background-image:none;
-  }
+.wrapper{
+  max-width: 640px;
+  margin:0 auto;
 }
